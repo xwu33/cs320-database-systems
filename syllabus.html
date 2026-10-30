@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CS 320 Database Management Systems — Course Syllabus (Fall 2026)</title>
+  <style>
+    :root { color-scheme: light; --ink: #202733; --muted: #596579; --line: #d9e0e8; --blue: #173f72; --pale: #f3f6fa; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #f5f7fa; color: var(--ink); font: 16px/1.65 Arial, Helvetica, sans-serif; }
+    main { max-width: 960px; margin: 32px auto; padding: 42px 52px; background: white; box-shadow: 0 4px 22px #16233a14; }
+    header { text-align: center; border-bottom: 3px solid var(--blue); padding-bottom: 20px; margin-bottom: 28px; }
+    h1 { color: var(--blue); font-size: clamp(1.7rem, 4vw, 2.4rem); margin: 0 0 5px; }
+    header p { margin: 0; color: var(--muted); font-size: 1.15rem; }
+    h2 { color: var(--blue); font-size: 1.35rem; margin: 32px 0 10px; padding-bottom: 5px; border-bottom: 1px solid var(--line); }
+    h3 { color: #2b405c; margin: 22px 0 6px; }
+    ul { padding-left: 24px; }
+    li { margin: 5px 0; }
+    .notice { background: #fff8e7; border-left: 4px solid #d59620; padding: 12px 16px; color: #594214; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 18px; }
+    .card { background: var(--pale); padding: 14px 18px; border-radius: 6px; }
+    table { width: 100%; border-collapse: collapse; margin: 12px 0 22px; }
+    th, td { border: 1px solid var(--line); padding: 9px 11px; text-align: left; vertical-align: top; }
+    th { background: var(--pale); color: #263d5a; }
+    .rubric { font-size: .92rem; }
+    a { color: #1557a0; }
+    footer { border-top: 1px solid var(--line); color: var(--muted); margin-top: 34px; padding-top: 16px; font-size: .9rem; }
+    @media (max-width: 640px) { main { margin: 0; padding: 24px 18px; } table { display: block; overflow-x: auto; } }
+    @media print { body { background: white; } main { box-shadow: none; margin: 0; max-width: none; padding: 0; } }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>CS 320 Database Management Systems</h1>
+    <p>Course Syllabus · Fall 2026</p>
+  </header>
+
+  <p class="notice"><strong>Historical syllabus:</strong> This page reconstructs the archived Fall 2026 syllabus. Dates, policies, instructor details, and course requirements are from that term and should not be treated as current course information.</p>
+
+  <section>
+    <h2>Course Objectives</h2>
+    <p>CS 320 introduces the fundamental principles of database systems. The objectives of this course are to provide a basic understanding of the strategies and problems associated with designing, querying, and managing database systems. The course presents the relational and ER data models and covers the basic concepts of database management systems. We will use a relational database management system and SQL. We will also discuss the emerging data model of NoSQL for non-structured data. A knowledge of programming languages (Java/C++), data structures, and the application development process is assumed.</p>
+  </section>
+
+  <section class="grid">
+    <div class="card">
+      <h2>Texts</h2>
+      <ul>
+        <li><em>Fundamentals of Database Systems</em>, Elmasri and Navathe, 7th Edition, Addison Wesley, 2015 (2016). Required.</li>
+        <li>Supplemental text: <em>Database Systems – Introduction to Databases and Data Warehouses</em>, 2013.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h2>Prerequisite</h2>
+      <p>CS 141, CS 142, CS 220</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Course Catalog Description</h2>
+    <p>Constituent parts of database management (design, creation, and manipulation of databases), including the conceptual and relational data models, SQL, normalization, and security. Writing proficiency within this discipline is required for a passing grade in this course.</p>
+    <h3>Topics and Chapters to Be Covered</h3>
+    <p><em>Subject to change.</em></p>
+    <ul class="grid">
+      <li>Introduction to databases</li><li>Database design</li><li>ER model and UML</li>
+      <li>Relational model</li><li>SQL</li><li>Functional dependencies and normalization</li>
+      <li>NoSQL databases</li><li>Security</li><li>Indexes and performance</li>
+      <li>Client-server and web databases (PHP and MySQL)</li><li>Transactions</li>
+      <li>Data warehouses</li><li>Object-oriented databases</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Instructor and Office Hours</h2>
+    <div class="card">
+      <p><strong>Xue Wu</strong><br>
+      Office: E 205 <br>
+      Email: <a href="mailto:swu@knox.edu">swu@knox.edu</a><br>
+      Website: <a href="https://www.knox.edu/academics/faculty/wu-xue">https://www.knox.edu/academics/faculty/wu-xue</a></p>
+      <table>
+        <thead><tr><th>Day</th><th>Office hours</th></tr></thead>
+        <tbody>
+          <tr><td>Monday, Wednesday</td><td>12:00–1:30 p.m.</td></tr>
+          <tr><td>Tuesday</td><td>10:30–11:30 a.m.</td></tr>
+          <tr><td>Friday</td><td>12:00–1:00 p.m.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <h2>Course Web Page</h2>
+    <p><a href="http://cs457.cs.ua.edu">http://cs457.cs.ua.edu</a></p>
+  </section>
+
+  <section>
+    <h2>Grading Policy</h2>
+    <ul>
+      <li><strong>40%</strong> — Two exams (one sheet of notes allowed)</li>
+      <li><strong>20%</strong> — Final exam programming project</li>
+      <li><strong>40%</strong> — Six to eight written and programming assignments</li>
+    </ul>
+    <p>Students who do not pass all writing assignments will receive a failing grade for the course.</p>
+    <h3>Final Exam Time Slots</h3>
+    <ul>
+      <li>10 a.m. section — Wednesday, December 13, 11:30 a.m.–2:00 p.m.</li>
+      <li>11 a.m. section — Tuesday, December 12, 8:00–10:30 a.m.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Attendance Policy</h2>
+    <ul>
+      <li>Students are expected to attend classes as scheduled. Students will be given the opportunity to hand in assignments and make up work missed due to legitimate circumstances beyond their control.</li>
+      <li>The instructor reserves the right to make announcements in class that may not appear on the class website.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Grading and Attendance</h2>
+    <ul>
+      <li>Some projects, programs, and homework require group work, while others are individual. The requirements will be specified for each assignment. All writing proficiency assignments are individual.</li>
+      <li>Regular attendance is the student's responsibility. Students who miss class are responsible for making up missed work. Tests cover material discussed in class, assigned readings, and assignments.</li>
+      <li>Students are expected to read the textbook chapter associated with each topic.</li>
+      <li>For disability accommodations, contact the Office of Disability Services at 348-4285 (133-B Martha Parham West). Students may then schedule an appointment with the instructor to discuss accommodations and other needs.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Policy Regarding Make-ups and Late Assignments</h2>
+    <ul>
+      <li>If you miss an assignment or exam, email the instructor as soon as possible to determine the appropriate make-up action. Make arrangements before known absences when possible. Non-valid excuses result in a score of zero for the exam.</li>
+      <li>Students receive two individual slip days. Slip days are calendar days; if class does not meet on one of those days, email the assignment to the instructor. For group assignments, each group member loses a slip day when the work is late. Regardless of slip days, late homework is not accepted after graded assignments have been returned to the class.</li>
+      <li>All make-up actions must be completed before tests or assignments are graded and returned. No make-up actions will be taken after that time.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Classroom Decorum</h2>
+    <p>The Code of Student Conduct requires students to behave in a manner conducive to a teaching and learning environment. Disruptive or obstructive behavior may result in disciplinary sanctions under the Code of Student Conduct. Examples listed in the archived syllabus include physical or verbal abuse, threats, stalking, intimidation, harassment, hazing, and possession of controlled substances or alcoholic beverages.</p>
+  </section>
+
+  <section>
+    <h2>Academic Conduct</h2>
+    <p>Students are expected to be honorable and to observe standards of conduct appropriate to a community of scholars. Academic misconduct includes dishonesty in an academically related matter and knowingly or intentionally helping, attempting to help, or conspiring to help another student. The archived syllabus states that enrollment allows the instructor to use electronic devices to help prevent plagiarism.</p>
+  </section>
+
+  <section>
+    <h2>Additional Requirements for CS 557</h2>
+    <p>CS 557 follows the requirements above, with these differences:</p>
+    <ul>
+      <li>All assignments must be completed individually, including assignments designated as group assignments for CS 457.</li>
+      <li>Students take exams different from the CS 457 exams.</li>
+      <li>Students complete a more complex final project than CS 457 students.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Exams, Assignments, and Writing Proficiency</h2>
+    <p>The archived syllabus states that it is almost impossible to pass the course after failing both midterms. It emphasizes that professional work should be neat, readable, coherent, complete, and understandable. Writing proficiency is required to pass the course, regardless of performance on other requirements. Students who do not pass all writing assignments receive a failing grade.</p>
+    <p>For the Database Design and Implementation Project, students write a project report describing requirements collection and analysis, the miniworld, schema diagram evolution, and a comparison of initial and final requirements. Students also write papers comparing and recommending current database techniques using journal or industry articles or performance results, and addressing a current topic in databases. The first writing assignment is graded and returned by midterm.</p>
+    <h3>Writing Assignment Rubric</h3>
+    <p>The archived syllabus attributes this rubric to a rubric available at <a href="https://edocs.uis.edu/kmill2/www/dolce/teachAids/FranRubric.html">FranRubric.html</a>.</p>
+    <div style="overflow-x:auto">
+      <table class="rubric">
+        <thead><tr><th>Objective / criterion</th><th>Needs improvement</th><th>Meets expectations</th><th>Exceeds expectations</th></tr></thead>
+        <tbody>
+          <tr><th colspan="4">Objective: Demonstrate effective communication skills, define computing requirements, and compare/analyze computer techniques.</th></tr>
+          <tr><th>Purpose<br>Focus, significance, topic</th><td>Objective is unclear or the paper lacks a central focus; limited awareness of main ideas; does not address the assigned topic.</td><td>Objective is adequately stated and the paper has a central focus; some awareness of main ideas; mostly stays on topic.</td><td>Objective is very clear and the paper has a strong focus; strong awareness of main ideas; shows good understanding of the assignment.</td></tr>
+          <tr><th>Organization<br>Structure, coherence, transitions, audience, introduction/conclusion</th><td>No clear structure; lacks clarity or coherence; few paragraph transitions; loses the reader; no clear introduction or conclusion.</td><td>Adequate structure; generally clear and coherent; adequate transitions; guides the reader; includes an introduction and/or conclusion.</td><td>Clear structure; very clear and coherent; excellent transitions; knows and guides the audience; good introduction and conclusion.</td></tr>
+          <tr><th>Evidence — Paper 1<br>Requirements, database specifications, support, comparisons</th><td>Database requirements or specifications are missing; statements lack support or justification; comparisons or limitations are missing.</td><td>Requirements or specifications are inadequate; adequate support and justification; comparisons or limitations are presented but not justified.</td><td>Requirements and specifications are complete; strong support and justification; comparisons and limitations are presented and justified.</td></tr>
+          <tr><th>Evidence — Paper 2<br>Accuracy, support, documentation, comparisons, performance</th><td>Statements are inaccurate or unsupported; sources are inadequate; comparison or performance discussion is missing.</td><td>Most statements are accurate; opinions have adequate support; most sources are identified; comparisons are not justified; performance analysis is insufficient.</td><td>Statements are very accurate and strongly supported; sources are identified and referenced appropriately; comparisons are justified; performance analysis is adequate.</td></tr>
+          <tr><th>Mechanics<br>Grammar, spelling, punctuation, appearance, references</th><td>Many errors interfere with understanding; paper and references are poorly presented.</td><td>Few errors cause minimal distraction; paper and references are acceptable.</td><td>Excellent grammar, spelling, punctuation, and presentation of the paper and references.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <h2>Severe Weather Guidelines</h2>
+    <p>The University of Alabama's guiding principle is the personal safety of students, faculty, and staff during severe weather. These guidelines provide additional help in responding to weather-related emergencies; they cannot anticipate every situation.</p>
+    <p>Classes generally remain in session until the National Weather Service issues safety warnings for Tuscaloosa. Commuters should follow National Weather Service advice for their area and take precautions. When a warning is issued, people in the storm's path should take immediate life-saving action.</p>
+    <p>When West Alabama is under a severe weather advisory, conditions can change rapidly. Get to a place where you can receive information from the <a href="https://www.weather.gov/">National Weather Service</a> and follow the instructions provided. Personal safety should guide decisions.</p>
+    <p>The archived syllabus lists these University Relations channels for campus updates:</p>
+    <ul>
+      <li>Weather advisory on the UA homepage</li><li>UA Alerts to faculty, staff, and students</li>
+      <li>WVUA at 90.7 FM</li><li>Alabama Public Radio (WUAL) at 91.5 FM</li>
+      <li>WVUA-TV/WUOA-TV and <a href="http://wvua23.com/weather">wvua23.com/weather</a></li>
+    </ul>
+    <p>For a tornado warning, university activities are suspended. If indoors, move immediately to the lowest level and toward the center of the building, away from windows, and remain there until the warning expires. Classes in session may resume after the warning expires at the instructor's discretion. Classes not yet begun resume 30 minutes after the warning expires if at least half of the class period remains.</p>
+  </section>
+
+  <section>
+    <h2>Policy on Academic Misconduct</h2>
+    <p>Students are expected to uphold academic integrity. The archived syllabus includes an Academic Honor Pledge affirming that students will not engage in cheating, plagiarism, fabrication, or misrepresentation, and that violations may result in penalties up to indefinite suspension. See the <a href="https://studenthandbook.ua.edu/policies-relevant-to-students/code-of-student-conduct/">Code of Student Conduct</a> for more information.</p>
+  </section>
+
+  <section>
+    <h2>Disability Statement</h2>
+    <p>Students registered with the Office of Disability Services should make an appointment with the instructor to discuss necessary course accommodations. Students who have not registered may contact the Office of Disability Services at (205) 348-4285 (voice), (205) 348-3081 (TTY), or visit 1000 Houser Hall. Students needing course adaptations are welcome to make an appointment; the archived syllabus states that students must be registered with the Office of Disability Services before receiving academic adjustments.</p>
+  </section>
+
+  <section>
+    <h2>UAct: Ethical Community Statement</h2>
+    <p>The University of Alabama is committed to an ethical, inclusive community defined by respect and civility. The <a href="http://www.ua.edu/uact">UAct website</a> provides reporting channels for illegal discrimination, harassment, sexual assault, sexual violence, retaliation, threat assessment, or fraud.</p>
+  </section>
+
+  <footer>
+    <p>Reconstructed as a standalone HTML page from the Internet Archive snapshot of the Fall 2017 syllabus: <a href="https://web.archive.org/web/20170910161619/http://cs457.cs.ua.edu/2017F/syll.htm">archived source</a>.</p>
+  </footer>
+</main>
+</body>
+</html>
+
